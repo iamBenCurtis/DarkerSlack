@@ -6673,7 +6673,7 @@ ts-inline-saver.failed {
     color: #d6d4cf;
 }
 .pinned_item .pinned_message_text .pin_truncate_fade {
-    background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#2e2c2a), to(rgba(23, 24, 28, 0)));
+    background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#2e2c2a), to(rgba(46, 47, 50, 0.75)));
     background-color: initial;
 }
 .pinned_item.delete_mode {
@@ -10577,7 +10577,7 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 }
 ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator).is_pinned, ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator).is_pinned, ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator).is_pinned {
     background-image: initial;
-    background-color: rgba(82, 66, 0, 0.35);
+    background-color: rgba(46, 47, 50, 0.75);
 }
 ts-thread ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator).is_pinned, ts-thread ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator).is_pinned, ts-thread ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator).is_pinned {
     background-image: initial;
@@ -10585,7 +10585,7 @@ ts-thread ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highli
 }
 ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator).show_recap:not(.is_pinned), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator).show_recap:not(.is_pinned), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator).show_recap:not(.is_pinned) {
     background-image: initial;
-    background-color: rgba(82, 66, 0, 0.35);
+    background-color: rgba(46, 47, 50, 0.75);
 }
 ts-message.active .meta, ts-message.active .meta.msg_inline_file_preview_toggler a, ts-message.message--focus .meta, ts-message.message--focus .meta.msg_inline_file_preview_toggler a, ts-message:hover .meta, ts-message:hover .meta.msg_inline_file_preview_toggler a {
     color: #bdb9b2 !important;
@@ -10711,11 +10711,11 @@ ts-message .meta.msg_inline_file_preview_toggler .member:hover, ts-message .meta
 }
 ts-message.is_pinned {
     background-image: initial;
-    background-color: rgba(82, 66, 0, 0.3);
+    background-color: rgba(46, 47, 50, 0.75);
 }
 ts-message.is_pinned:hover {
     background-image: initial;
-    background-color: rgba(82, 66, 0, 0.35);
+    background-color: rgba(46, 47, 50, 0.75);
 }
 ts-thread ts-message.is_pinned {
     background-image: initial;
@@ -10742,11 +10742,11 @@ ts-message .broadcast_indicator_holder .broadcast_indicator_icon {
 }
 ts-message.show_recap:not(.is_pinned) {
     background-image: initial;
-    background-color: rgba(82, 66, 0, 0.3);
+    background-color: rgba(46, 47, 50, 0.75);
 }
 ts-message.show_recap:not(.is_pinned):hover {
     background-image: initial;
-    background-color: rgba(82, 66, 0, 0.35);
+    background-color: rgba(46, 47, 50, 0.75);
 }
 ts-message.is_leaving_feedback .is_highlights_holder {
     background-color: #191a1d;
@@ -17162,7 +17162,7 @@ input[type="text"].c-input_text.p-emoji_picker__input:focus {
 }
 .c-message--pinned, .c-message--sli_highlight:not(.c-message--sli_highlight_negative), .c-message--starred {
     background-image: initial;
-    background-color: rgba(204, 163, 0, 0.1);
+    background-color: rgba(46, 47, 50, 0.75);
 }
 .c-message--ephemeral, .c-message--sli_highlight_negative {
     background-image: initial;
@@ -17170,7 +17170,7 @@ input[type="text"].c-input_text.p-emoji_picker__input:focus {
 }
 .c-message--highlight, .c-message--highlight_yellow_bg {
     background-image: initial;
-    background-color: #524200;
+    background-color: #2E2F32;
 }
 .c-message--custom_response {
     background-image: initial;
